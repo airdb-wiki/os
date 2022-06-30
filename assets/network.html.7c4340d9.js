@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,b as c}from"./app.c1deff29.js";const n={},r=c("p",null,"\u59DC\u77E5\u7B14\u8BB0: https://www.gingerdoc.com/",-1),_=[r];function s(a,l){return t(),o("div",null,_)}var i=e(n,[["render",s],["__file","network.html.vue"]]);export{i as default};
