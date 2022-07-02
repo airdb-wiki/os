@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-451ba75f","path":"/linux/network.html","title":"\u7F51\u7EDC","lang":"en-US","frontmatter":{"title":"\u7F51\u7EDC"},"excerpt":"","headers":[],"git":{"updatedTime":1656608600000,"contributors":[{"name":"deancn","email":"dean@airdb.com","commits":1}]},"filePathRelative":"linux/network.md"}');export{e as data};
