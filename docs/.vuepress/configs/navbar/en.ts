@@ -26,9 +26,9 @@ export const navbarEn: NavbarConfig = [
     text: 'Windows',
     children: [
       {
-        text: 'wls2',
+        text: 'wsl',
         children: [
-          '/contributing.md',
+          '/windows/README.md',
         ],
       },
     ],
