@@ -22,16 +22,9 @@ export const sidebarEn: SidebarConfig = {
   ],
   '/linux/': [
     {
-      text: 'service',
-      children: [
-        '/linux/service/dhcp.md',
-        '/linux/service/monitor.md',
-        '/linux/service/nginx.md',
-      ],
-    },
-    {
       text: 'shell',
       children: [
+        '/linux/shell/git.md',
         '/linux/shell/bash.md',
         '/linux/shell/bash-prog.md',
         '/linux/shell/bash-completion.md',
@@ -40,6 +33,15 @@ export const sidebarEn: SidebarConfig = {
         '/linux/shell/vim.md',
         '/linux/shell/tools.md',
       ], 
+    },
+    {
+      text: 'service',
+      children: [
+        '/linux/service/systemd.md',
+        '/linux/service/dhcp.md',
+        '/linux/service/monitor.md',
+        '/linux/service/nginx.md',
+      ],
     },
     {
       text: 'Network',
