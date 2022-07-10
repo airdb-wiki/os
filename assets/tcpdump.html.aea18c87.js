@@ -1,4 +1,0 @@
-import{_ as n,o as d,c,b as e,e as t}from"./app.fd500571.js";const o={},a=e("h2",{id:"\u6293\u53D6-udp-dns-\u5305",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#\u6293\u53D6-udp-dns-\u5305","aria-hidden":"true"},"#"),t(" \u6293\u53D6 udp dns \u5305")],-1),p=e("pre",null,[e("code",null,`sudo timeout 60 tcpdump -i any -n  port 53
-sudo tcpdump -i any -nn udp and port 53
-sudo tcpdump -i bond0.1000  -nnAAAA  | grep -A 20 -B 3  airdb.io
-`)],-1),s=e("h2",{id:"\u6293\u53D6-client-hello-\u5305",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#\u6293\u53D6-client-hello-\u5305","aria-hidden":"true"},"#"),t(" \u6293\u53D6 Client Hello \u5305")],-1),r=e("p",null,'sudo tcpdump "tcp port 443 and (tcp[((tcp[12] & 0xf0) >>2)] = 0x16) && (tcp[((tcp[12] & 0xf0) >>2)+5] = 0x01)" -w client-hello.pcap',-1),l=[a,p,s,r];function i(u,_){return d(),c("div",null,l)}var m=n(o,[["render",i],["__file","tcpdump.html.vue"]]);export{m as default};
