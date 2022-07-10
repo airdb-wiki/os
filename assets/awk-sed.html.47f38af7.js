@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6b25bbdc","path":"/linux/shell/awk-sed.html","title":"awk & sed","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1657481843000,"contributors":[{"name":"deancn","email":"dean@airdb.com","commits":1}]},"filePathRelative":"linux/shell/awk-sed.md"}');export{e as data};
