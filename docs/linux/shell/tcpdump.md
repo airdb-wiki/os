@@ -6,6 +6,8 @@ title: 抓包
 
 ```bash
 sudo tcpdump "tcp port 443 and (tcp[((tcp[12] & 0xf0) >>2)] = 0x16) && (tcp[((tcp[12] & 0xf0) >>2)+5] = 0x01)" -w client-hello.pcap
+
+sudo tcpdump "host dean.airdb.dev && tcp port 443 and (tcp[((tcp[12] & 0xf0) >>2)] = 0x16) && (tcp[((tcp[12] & 0xf0) >>2)+5] = 0x01)
 ```
 
 ## 抓取 udp dns 包
